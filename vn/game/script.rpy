@@ -24,8 +24,6 @@ label start:
     show blindpriest at left:
         zoom 0.6
     with Dissolve(.25)
-
-    scene bg whitehouse
     
  
 
