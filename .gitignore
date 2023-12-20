@@ -190,3 +190,5 @@ _wfCache
 log.txt 
 errors.txt 
 traceback.txt
+
+settings.json
