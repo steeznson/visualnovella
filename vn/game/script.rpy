@@ -23,7 +23,7 @@ label start:
 
     show blindpriest at left:
         zoom 0.6
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     scene bg whitehouse
     
@@ -38,20 +38,20 @@ label start:
     """
 
     hide blindpriest
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show goblin_oni at right:
-        zoom 0.5
-    with Dissolve(.5)
+        zoom 0.25
+    with Dissolve(.25)
 
     f '...'
 
     hide goblin_oni
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     e """
         The thinking is that if even shit, that most conspicuous,
@@ -66,20 +66,20 @@ label start:
     """
 
     hide blindpriest
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show goblin_oni at right:
-        zoom 0.5
-    with Dissolve(.5)
+        zoom 0.25
+    with Dissolve(.25)
 
     f "woah dude"
 
     hide goblin_oni
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     e """
         But hold on, isn't shit generally something you'd avoid looking at,
@@ -87,20 +87,20 @@ label start:
     """
 
     hide blindpriest
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show goblin_oni at right:
-        zoom 0.5
-    with Dissolve(.5)
+        zoom 0.25
+    with Dissolve(.25)
 
     f "huh?"
 
     hide goblin_oni
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     e """
         As in, you might be able to see perfectly well,
@@ -109,20 +109,20 @@ label start:
     """
 
     hide blindpriest
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show goblin_oni at right:
-        zoom 0.5
-    with Dissolve(.5)
+        zoom 0.25
+    with Dissolve(.25)
 
     f "hmm"
 
     hide goblin_oni
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
-    with Dissolve(.5)
+    with Dissolve(.25)
 
 
     e """
@@ -132,38 +132,38 @@ label start:
     """
 
     hide blindpriest
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show goblin_oni at right:
-        zoom 0.5
-    with Dissolve(.5)
+        zoom 0.25
+    with Dissolve(.25)
 
     f "yeah"
 
     hide goblin_oni
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     e "In which case, you'd hope you could at the very least smell it."
 
     hide blindpriest
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show goblin_oni at right:
-        zoom 0.5
-    with Dissolve(.5)
+        zoom 0.25
+    with Dissolve(.25)
 
     f "Ok"
 
     hide goblin_oni
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     e """
         'I can't see anything,' is what's meant.
@@ -173,20 +173,20 @@ label start:
     """
 
     hide blindpriest
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show goblin_oni at right:
-        zoom 0.5
-    with Dissolve(.5)
+        zoom 0.25
+    with Dissolve(.25)
 
     f "Sure"
 
     hide goblin_oni
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     e """
         The world must be a very desolate place for them;
@@ -195,20 +195,20 @@ label start:
     """
 
     hide blindpriest
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show goblin_oni at right:
-        zoom 0.5
-    with Dissolve(.5)
+        zoom 0.25
+    with Dissolve(.25)
 
     f "Very"
 
     hide goblin_oni
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     e """
         No, if you wanted to be truly cut and dry about the thing,
@@ -217,20 +217,20 @@ label start:
     """
 
     hide blindpriest
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show goblin_oni at right:
-        zoom 0.5
-    with Dissolve(.5)
+        zoom 0.25
+    with Dissolve(.25)
 
     f "..."
 
     hide goblin_oni
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     e """
         Right, final try. Let's just say, if shit were here,
@@ -241,20 +241,20 @@ label start:
     e "There, that strikes the right tone, doesn't it?"
 
     hide blindpriest
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show goblin_oni at right:
-        zoom 0.5
-    with Dissolve(.5)
+        zoom 0.25
+    with Dissolve(.25)
 
     f "Sure"
 
     hide goblin_oni
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
-    with Dissolve(.5)
+    with Dissolve(.25)
 
     e """
         Anyway, that's where I'm at currently, as far as shit
@@ -262,7 +262,7 @@ label start:
     """
 
     # show goblin_oni at right:
-    #     zoom 0.5
+    #     zoom 0.25
 
     # f "We've got a long way to go, baby!"
 
