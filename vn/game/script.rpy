@@ -22,7 +22,7 @@ label start:
     # directory.
 
     show blindpriest at left:
-        zoom 1.0
+        zoom 0.6
 
     # These display lines of dialogue.
 
@@ -38,7 +38,7 @@ label start:
     hide goblin_oni
 
     show blindpriest at left:
-        zoom 1.0
+        zoom 0.6
 
     e "The thinking is that if even shit, that most conspicuous and unwelcome of stimuli, eludes your sight, then there can't be much of anything else to see either."
 
@@ -54,7 +54,7 @@ label start:
     hide goblin_oni
 
     show blindpriest at left:
-        zoom 1.0
+        zoom 0.6
 
     e "But hold on, isn't shit generally something you'd avoid looking at, even if you could see? So then, the whole thing falls apart." 
 
@@ -68,11 +68,11 @@ label start:
     hide goblin_oni
 
     show blindpriest at left:
-        zoom 1.0
+        zoom 0.6
 
     e "As in, you might be able to see perfectly well, but are understandably avoiding the sight of shit, perhaps due to a genteel over-sensitivity of the nerves. "
 
-    hide anime_james_elf
+    hide blindpriest
 
     show goblin_oni at right:
         zoom 0.5
@@ -82,7 +82,7 @@ label start:
     hide goblin_oni
 
     show blindpriest at left:
-        zoom 1.0
+        zoom 0.6
 
     e "And to digress, if shit were something you were intent on avoiding, you might be at a distinct disadvantage if you couldn't see it."
 
@@ -96,7 +96,7 @@ label start:
     hide goblin_oni
 
     show blindpriest at left:
-        zoom 1.0
+        zoom 0.6
 
     e "In which case, you'd hope you could at the very least smell it."
 
@@ -110,7 +110,7 @@ label start:
     hide goblin_oni
 
     show blindpriest at left:
-        zoom 1.0
+        zoom 0.6
 
     e "\"I can't see anything,\" is what's meant. It says much about the sentiments of those who say, \"I can't see shit,\" instead, particularly how they feel about anything; apparently, it's interchangeable with fecal matter."
 
@@ -124,7 +124,7 @@ label start:
     hide goblin_oni
 
     show blindpriest at left:
-        zoom 1.0
+        zoom 0.6
 
     e "The world must be a very desolate place for them; for them, literally nothing is distinguishable from shit. How miserable indeed."
 
@@ -138,7 +138,7 @@ label start:
     hide goblin_oni
 
     show blindpriest at left:
-        zoom 1.0
+        zoom 0.6
 
     e "No, if you wanted to be truly cut and dry about the thing, you'd say, \"I can see neither shit, nor anything that is not shit.\" Although that does have less of a ring to it, I suppose."
 
@@ -152,7 +152,7 @@ label start:
     hide goblin_oni
 
     show blindpriest at left:
-        zoom 1.0
+        zoom 0.6
 
     e "Right, final try. Let's just say, if shit were here, I couldn't see it. But I could sure as hell smell it, buster, you betcha."
 
@@ -168,7 +168,7 @@ label start:
     hide goblin_oni
 
     show blindpriest at left:
-        zoom 1.0
+        zoom 0.6
 
     e "Anyway, that's where I'm at currently, as far as shit and sight are concerned. Blind as a fucking bat, me."
 
