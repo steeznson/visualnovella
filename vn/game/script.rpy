@@ -3,8 +3,9 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Yung Steezy")
-define f = Character("El Goblino")
+define priest_speech = Character("The Priest")
+define superego_speech = Character("The Deontologist")
+define id_speech = Character("The Consequentialist")
 
 
 # The game starts here.
@@ -24,12 +25,10 @@ label start:
     show blindpriest at left:
         zoom 0.6
     with Dissolve(.25)
-    
- 
 
     # These display lines of dialogue.
 
-    e """
+    priest_speech """
         'I can't see shit' is a curious phrase. It denotes blindness,
         but only through the tacit addition of 'even,' that is,
         'I can't {b}even{/b} see shit.'
@@ -38,26 +37,26 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
-    f '...'
+    id_speech '...'
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
     with Dissolve(.25)
 
-    e """
+    priest_speech """
         The thinking is that if even shit, that most conspicuous,
         and unwelcome of stimuli, eludes your sight,
         then there can't be much of anything else to see either.
     """
 
-    e """
+    priest_speech """
         I think of it another way; that most of what you {i}can{/i},
         see {b}is{/b} shit, and so if you can't see that, you can't see
         nothing. Which is to say, anything, if you get my meaning.
@@ -66,20 +65,20 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
-    f "woah dude"
+    id_speech "woah dude"
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
     with Dissolve(.25)
 
-    e """
+    priest_speech """
         But hold on, isn't shit generally something you'd avoid looking at,
         even if you could see? So then, the whole thing falls apart.
     """
@@ -87,20 +86,20 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
-    f "huh?"
+    id_speech "huh?"
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
     with Dissolve(.25)
 
-    e """
+    priest_speech """
         As in, you might be able to see perfectly well,
         but are understandably avoiding the sight of shit,
         perhaps due to a genteel over-sensitivity of the nerves.
@@ -109,13 +108,13 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
-    f "hmm"
+    id_speech "hmm"
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
@@ -123,7 +122,7 @@ label start:
     with Dissolve(.25)
 
 
-    e """
+    priest_speech """
         And to digress, if shit were something you were intent
         on avoiding, you might be at a distinct disadvantage
         if you couldn't see it.
@@ -132,38 +131,40 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
-    f "yeah"
+    id_speech "yeah"
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
     with Dissolve(.25)
 
-    e "In which case, you'd hope you could at the very least smell it."
+    priest_speech """
+        In which case, you'd hope you could at the very least smell it."
+    """
 
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
-    f "Ok"
+    id_speech "Ok"
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
     with Dissolve(.25)
 
-    e """
+    priest_speech """
         'I can't see anything,' is what's meant.
         It says much about the sentiments of those who say,
         'I can't see shit,' instead, particularly how they feel
@@ -173,20 +174,20 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
-    f "Sure"
+    id_speech "Sure"
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
     with Dissolve(.25)
 
-    e """
+    priest_speech """
         The world must be a very desolate place for them;
         for them, literally nothing is distinguishable from shit.
         How miserable indeed.
@@ -195,20 +196,20 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
-    f "Very"
+    id_speech "Very"
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
     with Dissolve(.25)
 
-    e """
+    priest_speech """
         No, if you wanted to be truly cut and dry about the thing,
         you'd say, 'I can see neither shit, nor anything that is not
         shit.' Although that does have less of a ring to it, I suppose.
@@ -217,55 +218,92 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
-    f "..."
+    id_speech "..."
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
     with Dissolve(.25)
 
-    e """
+    priest_speech """
         Right, final try. Let's just say, if shit were here,
         I couldn't see it. But I could sure as hell smell it,
         buster, you betcha.
     """
 
-    e "There, that strikes the right tone, doesn't it?"
+    priest_speech "There, that strikes the right tone, doesn't it?"
 
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
-    f "Sure"
+    id_speech "Sure"
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
         zoom 0.6
     with Dissolve(.25)
 
-    e """
+    priest_speech """
         Anyway, that's where I'm at currently, as far as shit
         and sight are concerned. Blind as a fucking bat, me.
+        Want to hear all that again?
     """
 
-    # show goblin_oni at right:
-    #     zoom 0.25
+    hide blindpriest
+    with Dissolve(.25)
 
-    # f "We've got a long way to go, baby!"
+    show consequentialist at right:
+        zoom 0.25
+    with Dissolve(.25)
+
+    menu:
+
+        "Yes, I do.":
+            hide consequentialist
+            with Dissolve(.25)
+            jump start
+
+        "No, I don't.":
+            jump next_scene
+
+
+    label next_scene:
+
+        hide consequentialist
+        with Dissolve(.25)
+
+        show blindpriest at left:
+            zoom 0.6
+        with Dissolve(.25)
+
+        priest_speech """
+            We'll continue our game here, but for now we're done.
+        """
+
+        hide blindpriest
+
+        show deontologist at right:
+            zoom 0.6
+
+        superego_speech """
+           You'll regret not heeding my warning.
+        """
+
+
+        # ... the game continues here.
 
     # This ends the game.
-
-    # e "No time to waste, let's bone! I call topsies."
 
     return
