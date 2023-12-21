@@ -4,7 +4,8 @@
 # name of the character.
 
 define e = Character("Yung Steezy")
-define f = Character("El Goblino")
+define f = Character("The Deontologist")
+define g = Character("The Consequentialist")
 
 
 # The game starts here.
@@ -38,13 +39,13 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
     f '...'
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
@@ -66,13 +67,13 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
     f "woah dude"
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
@@ -87,13 +88,13 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
     f "huh?"
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
@@ -109,13 +110,13 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
     f "hmm"
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
@@ -132,13 +133,13 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
     f "yeah"
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
@@ -150,13 +151,13 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
     f "Ok"
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
@@ -173,13 +174,13 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
     f "Sure"
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
@@ -195,13 +196,13 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
     f "Very"
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
@@ -217,13 +218,13 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
     f "..."
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
@@ -241,13 +242,13 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
     f "Sure"
 
-    hide goblin_oni
+    hide consequentialist
     with Dissolve(.25)
 
     show blindpriest at left:
@@ -263,14 +264,14 @@ label start:
     hide blindpriest
     with Dissolve(.25)
 
-    show goblin_oni at right:
+    show consequentialist at right:
         zoom 0.25
     with Dissolve(.25)
 
     menu:
 
         "Yes, I do.":
-            hide goblin_oni
+            hide consequentialist
             with Dissolve(.25)
             jump start
 
@@ -280,7 +281,7 @@ label start:
 
     label next_scene:
 
-        hide goblin_oni
+        hide consequentialist
         with Dissolve(.25)
 
         show blindpriest at left:
@@ -295,13 +296,6 @@ label start:
         # ... the game continues here.
  
 
-    # show goblin_oni at right:
-    #     zoom 0.25
-
-    # f "We've got a long way to go, baby!"
-
     # This ends the game.
-
-    # e "No time to waste, let's bone! I call topsies."
 
     return
