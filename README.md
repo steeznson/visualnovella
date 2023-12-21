@@ -7,7 +7,3 @@ story and art assets.
 
 # dependencies
 renpy 8.1.3
-
-> can be run with 7.3.5 if using the `openbsd-dev` branch, however
-> this is not to be merged as development is taking place with
-> renpy 8
