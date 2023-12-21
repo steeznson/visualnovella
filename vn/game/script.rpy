@@ -257,7 +257,43 @@ label start:
     e """
         Anyway, that's where I'm at currently, as far as shit
         and sight are concerned. Blind as a fucking bat, me.
+        Want to hear all that again?
     """
+
+    hide blindpriest
+    with Dissolve(.25)
+
+    show goblin_oni at right:
+        zoom 0.25
+    with Dissolve(.25)
+
+    menu:
+
+        "Yes, I do.":
+            hide goblin_oni
+            with Dissolve(.25)
+            jump start
+
+        "No, I don't.":
+            jump next_scene
+
+
+    label next_scene:
+
+        hide goblin_oni
+        with Dissolve(.25)
+
+        show blindpriest at left:
+            zoom 0.6
+        with Dissolve(.25)
+
+        e """
+            We'll continue our game here, but for now we're done.
+        """
+
+
+        # ... the game continues here.
+ 
 
     # show goblin_oni at right:
     #     zoom 0.25
