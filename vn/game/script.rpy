@@ -286,6 +286,7 @@ label start:
             xalign 0.20
             yalign 0.01
             zoom 0.32
+        with Dissolve(.25)
 
         superego_speech """
            You'll regret not heeding my warning.
