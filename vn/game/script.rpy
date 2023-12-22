@@ -21,8 +21,9 @@ label start:
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "anime_james_elf.png" to the images
     # directory.
+    
 
-    show blindpriest at left:
+    show blindpriest at center:
         zoom 0.6
     with Dissolve(.25)
 
@@ -34,10 +35,9 @@ label start:
         'I can't {b}even{/b} see shit.'
     """
 
-    hide blindpriest
-    with Dissolve(.25)
-
-    show consequentialist at right:
+    show consequentialist:
+        xalign 0.75
+        yalign 0.05
         zoom 0.25
     with Dissolve(.25)
 
@@ -46,7 +46,7 @@ label start:
     hide consequentialist
     with Dissolve(.25)
 
-    show blindpriest at left:
+    show blindpriest at center:
         zoom 0.6
     with Dissolve(.25)
 
@@ -62,10 +62,9 @@ label start:
         nothing. Which is to say, anything, if you get my meaning.
     """
 
-    hide blindpriest
-    with Dissolve(.25)
-
-    show consequentialist at right:
+    show consequentialist:
+        xalign 0.75
+        yalign 0.05
         zoom 0.25
     with Dissolve(.25)
 
@@ -74,7 +73,7 @@ label start:
     hide consequentialist
     with Dissolve(.25)
 
-    show blindpriest at left:
+    show blindpriest at center:
         zoom 0.6
     with Dissolve(.25)
 
@@ -83,10 +82,9 @@ label start:
         even if you could see? So then, the whole thing falls apart.
     """
 
-    hide blindpriest
-    with Dissolve(.25)
-
-    show consequentialist at right:
+    show consequentialist:
+        xalign 0.75
+        yalign 0.05
         zoom 0.25
     with Dissolve(.25)
 
@@ -95,7 +93,7 @@ label start:
     hide consequentialist
     with Dissolve(.25)
 
-    show blindpriest at left:
+    show blindpriest at center:
         zoom 0.6
     with Dissolve(.25)
 
@@ -105,10 +103,9 @@ label start:
         perhaps due to a genteel over-sensitivity of the nerves.
     """
 
-    hide blindpriest
-    with Dissolve(.25)
-
-    show consequentialist at right:
+    show consequentialist:
+        xalign 0.75
+        yalign 0.05
         zoom 0.25
     with Dissolve(.25)
 
@@ -117,7 +114,7 @@ label start:
     hide consequentialist
     with Dissolve(.25)
 
-    show blindpriest at left:
+    show blindpriest at center:
         zoom 0.6
     with Dissolve(.25)
 
@@ -128,10 +125,9 @@ label start:
         if you couldn't see it.
     """
 
-    hide blindpriest
-    with Dissolve(.25)
-
-    show consequentialist at right:
+    show consequentialist:
+        xalign 0.75
+        yalign 0.05
         zoom 0.25
     with Dissolve(.25)
 
@@ -140,7 +136,7 @@ label start:
     hide consequentialist
     with Dissolve(.25)
 
-    show blindpriest at left:
+    show blindpriest at center:
         zoom 0.6
     with Dissolve(.25)
 
@@ -148,10 +144,9 @@ label start:
         In which case, you'd hope you could at the very least smell it."
     """
 
-    hide blindpriest
-    with Dissolve(.25)
-
-    show consequentialist at right:
+    show consequentialist:
+        xalign 0.75
+        yalign 0.05
         zoom 0.25
     with Dissolve(.25)
 
@@ -160,7 +155,7 @@ label start:
     hide consequentialist
     with Dissolve(.25)
 
-    show blindpriest at left:
+    show blindpriest at center:
         zoom 0.6
     with Dissolve(.25)
 
@@ -171,10 +166,9 @@ label start:
         about anything; apparently, it's interchangeable with fecal matter.
     """
 
-    hide blindpriest
-    with Dissolve(.25)
-
-    show consequentialist at right:
+    show consequentialist:
+        xalign 0.75
+        yalign 0.05
         zoom 0.25
     with Dissolve(.25)
 
@@ -183,7 +177,7 @@ label start:
     hide consequentialist
     with Dissolve(.25)
 
-    show blindpriest at left:
+    show blindpriest at center:
         zoom 0.6
     with Dissolve(.25)
 
@@ -193,10 +187,9 @@ label start:
         How miserable indeed.
     """
 
-    hide blindpriest
-    with Dissolve(.25)
-
-    show consequentialist at right:
+    show consequentialist:
+        xalign 0.75
+        yalign 0.05
         zoom 0.25
     with Dissolve(.25)
 
@@ -205,7 +198,7 @@ label start:
     hide consequentialist
     with Dissolve(.25)
 
-    show blindpriest at left:
+    show blindpriest at center:
         zoom 0.6
     with Dissolve(.25)
 
@@ -215,10 +208,9 @@ label start:
         shit.' Although that does have less of a ring to it, I suppose.
     """
 
-    hide blindpriest
-    with Dissolve(.25)
-
-    show consequentialist at right:
+    show consequentialist:
+        xalign 0.75
+        yalign 0.05
         zoom 0.25
     with Dissolve(.25)
 
@@ -227,7 +219,7 @@ label start:
     hide consequentialist
     with Dissolve(.25)
 
-    show blindpriest at left:
+    show blindpriest at center:
         zoom 0.6
     with Dissolve(.25)
 
@@ -239,10 +231,9 @@ label start:
 
     priest_speech "There, that strikes the right tone, doesn't it?"
 
-    hide blindpriest
-    with Dissolve(.25)
-
-    show consequentialist at right:
+    show consequentialist:
+        xalign 0.75
+        yalign 0.05
         zoom 0.25
     with Dissolve(.25)
 
@@ -251,7 +242,7 @@ label start:
     hide consequentialist
     with Dissolve(.25)
 
-    show blindpriest at left:
+    show blindpriest at center:
         zoom 0.6
     with Dissolve(.25)
 
@@ -261,10 +252,9 @@ label start:
         Want to hear all that again?
     """
 
-    hide blindpriest
-    with Dissolve(.25)
-
-    show consequentialist at right:
+    show consequentialist:
+        xalign 0.75
+        yalign 0.05
         zoom 0.25
     with Dissolve(.25)
 
@@ -284,7 +274,7 @@ label start:
         hide consequentialist
         with Dissolve(.25)
 
-        show blindpriest at left:
+        show blindpriest at center:
             zoom 0.6
         with Dissolve(.25)
 
@@ -292,10 +282,11 @@ label start:
             We'll continue our game here, but for now we're done.
         """
 
-        hide blindpriest
-
-        show deontologist at right:
-            zoom 0.6
+        show deontologist:
+            xalign 0.20
+            yalign 0.01
+            zoom 0.32
+        with Dissolve(.25)
 
         superego_speech """
            You'll regret not heeding my warning.
