@@ -289,7 +289,7 @@ label start:
         with Dissolve(.25)
 
         superego_speech """
-           You'll regret not heeding my warning.
+            You'll regret not heeding my warning.
         """
 
 
