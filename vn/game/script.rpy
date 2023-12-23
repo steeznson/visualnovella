@@ -150,6 +150,8 @@ label start:
             """Not for long, as I was stopped in my tracks by something tall, thin, metallic -
             and legion."""
 
+    hide blindpriest
+
     show priest_behind_bars at center:
         zoom 0.6
     with Dissolve(.50) 
