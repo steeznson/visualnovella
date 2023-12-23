@@ -147,8 +147,8 @@ label start:
             "From the sound I made earlier, I guessed I was in an open space, but no-"
 
         else:
-            "Not for long, as I was stopped in my tracks by something tall, thin, metallic -
-            and legion."
+            """Not for long, as I was stopped in my tracks by something tall, thin, metallic -
+            and legion."""
 
     show priest_behind_bars at center:
         zoom 0.6
