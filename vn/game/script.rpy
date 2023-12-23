@@ -35,21 +35,6 @@ label start:
         'I can't {b}even{/b} see shit.'
     """
 
-    show consequentialist:
-        xalign 0.85
-        yalign 0.70
-        zoom 0.25
-    with Dissolve(.25)
-
-    id_speech '...'
-
-    hide consequentialist
-    with Dissolve(.25)
-
-    show blindpriest at center:
-        zoom 0.6
-    with Dissolve(.25)
-
     priest_speech """
         The thinking is that if even shit, that most conspicuous,
         and unwelcome of stimuli, eludes your sight,
@@ -60,119 +45,20 @@ label start:
         I think of it another way; that most of what you {i}can{/i},
         see {b}is{/b} shit, and so if you can't see that, you can't see
         nothing. Which is to say, anything, if you get my meaning.
-    """
-
-    show consequentialist:
-        xalign 0.85
-        yalign 0.70
-        zoom 0.25
-    with Dissolve(.25)
-
-    id_speech "woah dude"
-
-    hide consequentialist
-    with Dissolve(.25)
-
-    show blindpriest at center:
-        zoom 0.6
-    with Dissolve(.25)
-
-    priest_speech """
-        But hold on, isn't shit generally something you'd avoid looking at,
-        even if you could see? So then, the whole thing falls apart.
-    """
-
-    show consequentialist:
-        xalign 0.85
-        yalign 0.70
-        zoom 0.25
-    with Dissolve(.25)
-
-    id_speech "huh?"
-
-    hide consequentialist
-    with Dissolve(.25)
-
-    show blindpriest at center:
-        zoom 0.6
-    with Dissolve(.25)
-
-    priest_speech """
-        As in, you might be able to see perfectly well,
-        but are understandably avoiding the sight of shit,
-        perhaps due to a genteel over-sensitivity of the nerves.
-    """
-
-    show consequentialist:
-        xalign 0.85
-        yalign 0.70
-        zoom 0.25
-    with Dissolve(.25)
-
-    id_speech "hmm"
-
-    hide consequentialist
-    with Dissolve(.25)
-
-    show blindpriest at center:
-        zoom 0.6
-    with Dissolve(.25)
-
-
-    priest_speech """
-        And to digress, if shit were something you were intent
-        on avoiding, you might be at a distinct disadvantage
-        if you couldn't see it.
-    """
-
-    show consequentialist:
-        xalign 0.85
-        yalign 0.70
-        zoom 0.25
-    with Dissolve(.25)
-
-    id_speech "yeah"
-
-    hide consequentialist
-    with Dissolve(.25)
-
-    show blindpriest at center:
-        zoom 0.6
-    with Dissolve(.25)
-
-    priest_speech """
-        In which case, you'd hope you could at the very least smell it."
-    """
-
-    show consequentialist:
-        xalign 0.85
-        yalign 0.70
-        zoom 0.25
-    with Dissolve(.25)
-
-    id_speech "Ok"
-
-    hide consequentialist
-    with Dissolve(.25)
-
-    show blindpriest at center:
-        zoom 0.6
-    with Dissolve(.25)
+    """ 
 
     priest_speech """
         'I can't see anything,' is what's meant.
-        It says much about the sentiments of those who say,
-        'I can't see shit,' instead, particularly how they feel
-        about anything; apparently, it's interchangeable with fecal matter.
+        Those who say, 'I can't see shit' instead say a lot about how they feel about anything; 
+        apparently, it's interchangeable with fecal matter. How miserable indeed.
     """
 
     show consequentialist:
-        xalign 0.85
-        yalign 0.70
+        xalign 0.85        yalign 0.70
         zoom 0.25
     with Dissolve(.25)
 
-    id_speech "Sure"
+    id_speech "Forget that, priest. You have more pressing concerns."
 
     hide consequentialist
     with Dissolve(.25)
@@ -182,10 +68,12 @@ label start:
     with Dissolve(.25)
 
     priest_speech """
-        The world must be a very desolate place for them;
-        for them, literally nothing is distinguishable from shit.
-        How miserable indeed.
+        My old friend - here to badger me again, no doubt. He often has my best interests at heart, 
+        however. Bless him 
     """
+    show blindpriest at left:
+        zoom 0.6
+    with Dissolve(.25)
 
     show consequentialist:
         xalign 0.85
@@ -193,7 +81,51 @@ label start:
         zoom 0.25
     with Dissolve(.25)
 
-    id_speech "Very"
+    priest_speech """
+        Such as? 
+    """
+    id_speech "Better you figure that out for yourself - I don't want to shock you." 
+
+    menu: 
+
+        "why don't you try having a rummage around?" 
+
+        "Tap the ground with your staff":
+            jump tapground
+            
+        "Crouch down and feel the ground":
+            jump crouchdown 
+
+           
+        
+    label tapground:
+
+        $ menu_flag = True 
+ 
+        "I hardly need the sound to inform me the floor is hard, cold flagstone - as the pain 
+        in my back attests, I've been sleeping on it the past few hours. The sound echoes 
+        throughout the room - I think the walls are bare, and the space is narrow and enclosed."
+      
+        jump menu_end
+            
+    label crouchdown:
+            
+        $ menu_flag = False 
+
+        "The floor is cool and clammy - it feels like roughly hewn flagstone, mottled with
+        dirt and grime. I could think of more comfortable beds - judging by the pain in 
+        my back, I've been sleeping here for the past few hours, at least."
+  
+        jump menu_end 
+
+    label menu_end: 
+
+    priest_speech """
+        Oh my, it seems I've fallen on hard circumstances. 
+    """
+    id_speech """
+        "I'll say - try a little harder priest, step forward.
+    """ 
 
     hide consequentialist
     with Dissolve(.25)
@@ -202,40 +134,44 @@ label start:
         zoom 0.6
     with Dissolve(.25)
 
-    priest_speech """
-        No, if you wanted to be truly cut and dry about the thing,
-        you'd say, 'I can see neither shit, nor anything that is not
-        shit.' Although that does have less of a ring to it, I suppose.
-    """
+    menu: 
 
-    show consequentialist:
-        xalign 0.85
-        yalign 0.70
-        zoom 0.25
-    with Dissolve(.25)
+        "There's nothing for it..." 
 
-    id_speech "..."
+        "Walk forward.": 
+            "I inch forward apprehensively, my staff raised in front."
+            jump walk_forward
 
-    hide consequentialist
-    with Dissolve(.25)
+    label walk_forward: 
+        if menu_flag:
+            "From the sound I made earlier, I guessed I was in an open space, but no-"
 
-    show blindpriest at center:
+        else:
+            "Not for long, as I was stopped in my tracks by something tall, thin, metallic -
+            and legion."
+
+    show priest_behind_bars at center:
         zoom 0.6
-    with Dissolve(.25)
+    with Dissolve(.50) 
 
-    priest_speech """
-        Right, final try. Let's just say, if shit were here,
-        I couldn't see it. But I could sure as hell smell it,
-        buster, you betcha.
+    id_speech """
+        You figured it out yet? You're in the clink priest. This is another fine mess 
+        you've gotten us into. 
     """
+    label walk_forward_end: 
 
-    priest_speech "There, that strikes the right tone, doesn't it?"
+    hide priest_behind_bars
+    with Dissolve(.50) 
 
-    show consequentialist:
+    show blindpriest at left:
+        zoom 0.6
+    with Dissolve(.25) 
+
+    show consequentialist: 
         xalign 0.85
         yalign 0.70
         zoom 0.25
-    with Dissolve(.25)
+    with Dissolve(.25) 
 
     id_speech "Sure"
 
