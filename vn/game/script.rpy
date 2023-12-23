@@ -292,6 +292,24 @@ label start:
             You'll regret not heeding my warning.
         """
 
+        hide blindpriest
+        with Dissolve(.25)
+
+        hide deontologist
+        with Dissolve(.25)
+
+        hide consequentialist
+        with Dissolve(.25)
+
+        show priest_behind_bars at center:
+            zoom 0.75
+        with Dissolve(.25)
+
+        priest_speech """
+            ...
+        """
+            
+
 
         # ... the game continues here.
 
