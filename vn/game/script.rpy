@@ -36,8 +36,8 @@ label start:
     """
 
     show consequentialist:
-        xalign 0.75
-        yalign 0.05
+        xalign 0.85
+        yalign 0.70
         zoom 0.25
     with Dissolve(.25)
 
@@ -63,8 +63,8 @@ label start:
     """
 
     show consequentialist:
-        xalign 0.75
-        yalign 0.05
+        xalign 0.85
+        yalign 0.70
         zoom 0.25
     with Dissolve(.25)
 
@@ -83,8 +83,8 @@ label start:
     """
 
     show consequentialist:
-        xalign 0.75
-        yalign 0.05
+        xalign 0.85
+        yalign 0.70
         zoom 0.25
     with Dissolve(.25)
 
@@ -104,8 +104,8 @@ label start:
     """
 
     show consequentialist:
-        xalign 0.75
-        yalign 0.05
+        xalign 0.85
+        yalign 0.70
         zoom 0.25
     with Dissolve(.25)
 
@@ -126,8 +126,8 @@ label start:
     """
 
     show consequentialist:
-        xalign 0.75
-        yalign 0.05
+        xalign 0.85
+        yalign 0.70
         zoom 0.25
     with Dissolve(.25)
 
@@ -145,8 +145,8 @@ label start:
     """
 
     show consequentialist:
-        xalign 0.75
-        yalign 0.05
+        xalign 0.85
+        yalign 0.70
         zoom 0.25
     with Dissolve(.25)
 
@@ -167,8 +167,8 @@ label start:
     """
 
     show consequentialist:
-        xalign 0.75
-        yalign 0.05
+        xalign 0.85
+        yalign 0.70
         zoom 0.25
     with Dissolve(.25)
 
@@ -188,8 +188,8 @@ label start:
     """
 
     show consequentialist:
-        xalign 0.75
-        yalign 0.05
+        xalign 0.85
+        yalign 0.70
         zoom 0.25
     with Dissolve(.25)
 
@@ -209,8 +209,8 @@ label start:
     """
 
     show consequentialist:
-        xalign 0.75
-        yalign 0.05
+        xalign 0.85
+        yalign 0.70
         zoom 0.25
     with Dissolve(.25)
 
@@ -232,8 +232,8 @@ label start:
     priest_speech "There, that strikes the right tone, doesn't it?"
 
     show consequentialist:
-        xalign 0.75
-        yalign 0.05
+        xalign 0.85
+        yalign 0.70
         zoom 0.25
     with Dissolve(.25)
 
@@ -253,8 +253,8 @@ label start:
     """
 
     show consequentialist:
-        xalign 0.75
-        yalign 0.05
+        xalign 0.85
+        yalign 0.70
         zoom 0.25
     with Dissolve(.25)
 
@@ -271,8 +271,8 @@ label start:
 
     label next_scene:
 
-        hide consequentialist
-        with Dissolve(.25)
+        # hide consequentialist
+        # with Dissolve(.25)
 
         show blindpriest at center:
             zoom 0.6
@@ -283,9 +283,9 @@ label start:
         """
 
         show deontologist:
-            xalign 0.20
-            yalign 0.01
-            zoom 0.32
+            xalign 0.10
+            yalign 0.60
+            zoom 0.25
         with Dissolve(.25)
 
         superego_speech """
