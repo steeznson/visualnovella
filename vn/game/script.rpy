@@ -63,15 +63,18 @@ label start:
     hide consequentialist
     with Dissolve(.25)
 
-    show blindpriest at center:
+    show blindpriest_happy at center:
         zoom 0.6
-    with Dissolve(.25)
+
+    hide blindpriest
 
     priest_speech """
         My old friend - here to badger me again, no doubt. He often has my best interests at heart, 
         however. Bless him 
     """
-    show blindpriest at left:
+    # hide blindpriest_happy
+
+    show blindpriest_happy at left:
         zoom 0.6
     with Dissolve(.25)
 
@@ -84,7 +87,15 @@ label start:
     priest_speech """
         Such as? 
     """
+    hide blindpriest_happy
+    
+    show blindpriest at left:
+        zoom 0.6
+        
     id_speech "Better you figure that out for yourself - I don't want to shock you." 
+    
+
+
 
     menu: 
 
