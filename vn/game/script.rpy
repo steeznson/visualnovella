@@ -257,7 +257,24 @@ label start:
         priest_speech """
             ...
         """
+        
+        hide priest_behind_bars
+        
+        scene bg bed
+        with Dissolve(.5)
             
+        show priest_falling:
+            xalign 0.5
+            yalign 0.1
+            zoom 0.75
+        with Dissolve(.5)
+
+        pause(0.5)
+        "I feel myself suddenly falling..."
+
+        # priest_speech """
+        #     ...
+        # """
 
 
         # ... the game continues here.
