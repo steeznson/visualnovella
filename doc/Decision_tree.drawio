@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T16:15:47.696Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="nCh2yvgF_saVgk3GMyf_" version="22.1.16" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1473" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="In the cell" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Stay in the cell" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="170" y="170" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Wake up earlier" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="310" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YxVs6itqgGnQLdIAnN47-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="YxVs6itqgGnQLdIAnN47-0" target="YxVs6itqgGnQLdIAnN47-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxVs6itqgGnQLdIAnN47-0" value="Encounter a warden - Odin (king of valhalla, warrior). He tells you, go and find us prisoners. (You are culpable of bringing prisoners to Odin. Weak)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-40" y="230" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YxVs6itqgGnQLdIAnN47-1" value="Long term: Follow the Deontologist, learn that you blinded yourself." style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-70" y="850" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YxVs6itqgGnQLdIAnN47-2" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="160" y="210" as="sourcePoint" />
+            <mxPoint x="130" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="210" />
+              <mxPoint x="150" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxVs6itqgGnQLdIAnN47-3" value="Exile from Napoleionic wars (beginning of Victorian Era). Blinded himself due to something he saw." style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-70" y="740" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YxVs6itqgGnQLdIAnN47-4" value="Came from a sheltered background. Blinded himself. . To make amends for what his friend has done he blinds himself after a psychotic episode,&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="920" width="180" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="YxVs6itqgGnQLdIAnN47-5" value="Priest is a Valkyrie, you have shit to attend to in Valhalla but lost your memory of this after being blinded and entering a fuge like state. If you follow the Deontologist you will learn this." style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-80" y="970" width="180" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="YxVs6itqgGnQLdIAnN47-6" value="Kid offers himself up as a war hero but they&#39;re too poor and feeble to be a warrior." style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-70" y="590" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YxVs6itqgGnQLdIAnN47-7" value="Blindness is emblematic of them not realising who they are, thinking they&#39;re a midgard person. Seeing this weak child try and fail to be a war hero has lead him to blind himself and become human." style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="670" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YxVs6itqgGnQLdIAnN47-8" value="Oversleep. Wake up later." style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-15" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
